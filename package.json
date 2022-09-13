@@ -1,39 +1,25 @@
 {
-	"name": "pages-functions-app",
-	"version": "0.0.0",
-	"private": true,
-	"sideEffects": false,
-	"main": "dist/worker.js",
-	"scripts": {
-		"dev": "npx wrangler pages dev public --binding=NAME=VALUE --binding=OTHER_NAME=THING=WITH=EQUALS --r2=BUCKET --port 8789",
-		"g": "git add . && git commit -m \"first commit\" && git push -u origin main -f",
-		"test": "npx jest --forceExit",
-		"test:ci": "npx jest --forceExit"
-	},
-	"jest": {
-		"restoreMocks": true,
-		"testRegex": ".*.(test|spec)\\.[jt]sx?$",
-		"testTimeout": 30000,
-		"transform": {
-			"^.+\\.c?(t|j)sx?$": [
-				"esbuild-jest",
-				{
-					"sourcemap": true
-				}
-			]
-		},
-		"transformIgnorePatterns": [
-			"node_modules/(?!find-up|locate-path|p-locate|p-limit|yocto-queue|path-exists|execa|strip-final-newline|npm-run-path|path-key|onetime|mimic-fn|human-signals|is-stream)"
-		]
-	},
-	"devDependencies": {
-		"@cloudflare/workers-types": "^3.2.0",
-		"undici": "^5.9.1"
-	},
-	"engines": {
-		"node": ">=16.13"
-	},
-	"dependencies": {
-		"2ll": "^0.0.9"
-	}
+  "name": "beta",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "g": "git add . && git commit -m \"first commit\" && git push -u origin main -f",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.0.0-beta.13",
+    "@strapi/plugin-users-permissions": "4.0.0-beta.13",
+    "@strapi/strapi": "4.0.0-next.0",
+    "sqlite3": "^5.0.2"
+  },
+  "author": {
+    "name": "vsamaru"
+  },
+  "strapi": {
+    "uuid": "68baa0cd-6214-4216-87e7-ed5dbc4fbd08"
+  }
 }
