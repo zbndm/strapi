@@ -1,5 +1,6 @@
 {
   "name": "pages-plugins-example",
+  
   "scripts": {
     "start": "wrangler pages functions build --outfile public/_worker.js && wrangler pages publish public",
     "build": "wrangler pages functions build --outfile public/_worker.js",
