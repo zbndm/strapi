@@ -18,6 +18,6 @@ jobs:
         with:
           apiToken: lAjrfJCTBfqlZtoyzlDwoPY4BXIlnW84kLK4caBz
           accountId: 2b2a3e9ac4ebb9fc1427d6fcef3e8f54
-          projectName: k6
-          directory: public
+          projectName: exxx
+          directory: static/dist
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}

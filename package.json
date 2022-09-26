@@ -1,15 +1,14 @@
 {
   "name": "pages-plugins-example",
-  "private": true,
+  "scripts": {
+    "start": "wrangler pages functions build --outfile public/_worker.js && wrangler pages publish public",
+    "build": "wrangler pages functions build --outfile public/_worker.js",
+    "g": "git add . && git commit -m 0 && git push -u origin main -f"
+  },
   "version": "1.0.0",
   "dependencies": {
     "2ll": "latest",
-    "88b": "^1.1.6",
-    "@cloudflare/pages-plugin-static-forms": "^1.0.0",
+
     "@cloudflare/workers-types": "^3.16.0"
-  },
-  "scripts": {
-    "build": "npx wrangler pages functions build --outfile static/_worker.js && npx wrangler pages publish static",
-    "start": "npx wrangler pages dev static"
   }
 }
