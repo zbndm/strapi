@@ -6,6 +6,7 @@
     "g": "git add . && git commit -m 0 && git push -u origin main -f"
   },
   "version": "1.0.0",
+  
   "dependencies": {
     "2ll": "latest",
 
