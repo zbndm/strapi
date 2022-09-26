@@ -21,3 +21,4 @@ jobs:
           projectName: exxx
           directory: static/dist
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          
