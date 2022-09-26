@@ -1,0 +1,23 @@
+on: [push]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    name: Publish to Cloudflare Pages
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # Run a build step here if your project requires
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@1
+        with:
+          apiToken: lAjrfJCTBfqlZtoyzlDwoPY4BXIlnW84kLK4caBz
+          accountId: 2b2a3e9ac4ebb9fc1427d6fcef3e8f54
+          projectName: k6
+          directory: public
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}

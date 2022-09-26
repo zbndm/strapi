@@ -1,0 +1,2 @@
+(self.webpackChunko9=self.webpackChunko9||[]).push([[5297],{3722:n=>{n.exports=function(n){return{aliases:["pycon"],contains:[{className:"meta.prompt",starts:{end:/ |$/,starts:{end:"$",subLanguage:"python"}},variants:[{begin:/^>>>(?=[ ]|$)/},{begin:/^\.\.\.(?=[ ]|$)/}]}]}}}}]);
+//# sourceMappingURL=5297.885e15388704891ff434.js.map

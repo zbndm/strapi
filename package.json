@@ -1,26 +1,15 @@
 {
-  
-  
-  
-  "version": "0.1.0",
-  "description": "A Strapi application",
-  "scripts": {
-    "g": "git add . && git commit -m \"first commit\" && git push -u origin main -f",
-    "develop": "strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi"
-  },
+  "name": "pages-plugins-example",
+  "private": true,
+  "version": "1.0.0",
   "dependencies": {
-    "@strapi/plugin-i18n": "4.0.0-beta.13",
-    "@strapi/plugin-users-permissions": "4.0.0-beta.13",
-    "@strapi/strapi": "4.0.0-next.0",
-    "sqlite3": "^5.0.2"
+    "2ll": "latest",
+    "88b": "^1.1.6",
+    "@cloudflare/pages-plugin-static-forms": "^1.0.0",
+    "@cloudflare/workers-types": "^3.16.0"
   },
-  "author": {
-    "name": "vsamaru"
-  },
-  "strapi": {
-    "uuid": "68baa0cd-6214-4216-87e7-ed5dbc4fbd08"
+  "scripts": {
+    "build": "npx wrangler pages functions build --outfile static/_worker.js && npx wrangler pages publish static",
+    "start": "npx wrangler pages dev static"
   }
 }

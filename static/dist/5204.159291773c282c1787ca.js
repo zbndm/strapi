@@ -1,0 +1,2 @@
+(self.webpackChunko9=self.webpackChunko9||[]).push([[5204],{62437:e=>{e.exports=function(e){return{name:"Plain text",aliases:["text","txt"],disableAutodetect:!0}}}}]);
+//# sourceMappingURL=5204.159291773c282c1787ca.js.map

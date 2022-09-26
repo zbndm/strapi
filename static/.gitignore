@@ -1,0 +1,10 @@
+node_modules
+.cache
+
+src/lib/gramjs/build/
+build-contest/
+tests/
+.idea
+*.iml
+
+.DS_store

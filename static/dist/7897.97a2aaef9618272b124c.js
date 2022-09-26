@@ -1,0 +1,2 @@
+(self.webpackChunko9=self.webpackChunko9||[]).push([[7897],{32151:e=>{e.exports=function(e){return{name:"ERB",subLanguage:"xml",contains:[e.COMMENT("<%#","%>"),{begin:"<%[%=-]?",end:"[%-]?%>",subLanguage:"ruby",excludeBegin:!0,excludeEnd:!0}]}}}}]);
+//# sourceMappingURL=7897.97a2aaef9618272b124c.js.map

@@ -1,0 +1,2 @@
+(self.webpackChunko9=self.webpackChunko9||[]).push([[8709],{48704:n=>{n.exports=function(n){return{name:"VBScript in HTML",subLanguage:"xml",contains:[{begin:"<%",end:"%>",subLanguage:"vbscript"}]}}}}]);
+//# sourceMappingURL=8709.5459cc1d53095a376a76.js.map
