@@ -19,6 +19,6 @@ jobs:
           apiToken: lAjrfJCTBfqlZtoyzlDwoPY4BXIlnW84kLK4caBz
           accountId: 2b2a3e9ac4ebb9fc1427d6fcef3e8f54
           projectName: exx
-          directory: static/dist
+          directory: _static
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
           
